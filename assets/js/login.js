@@ -1,0 +1,15 @@
+$(function(){
+    //注册账号
+    $("#goToRegi").click(function(){
+        //显示注册
+        $(".register").show();
+        //隐藏登录
+        $(".login").hide();
+    });
+    $("#goToLogin").click(function(){
+        //显示登录
+        $(".login").show();
+        //隐藏注册
+        $(".register").hide()
+    })
+})
