@@ -74,7 +74,7 @@ $(function () {
                  layer.msg('登录成功 即将跳转', {
                      time: 2000 //2秒关闭（如果不配置，默认是3秒）
                  }, function () {
-                     location.href = ""
+                     location.href = "/home/index.html"
                  });
             }
         })
